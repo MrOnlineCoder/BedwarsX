@@ -63,7 +63,7 @@ public class Utils {
 
 		if (dmg.getType() == DamageTypes.VOID) {
 			if (!killer.isEmpty()) {
-				return Text.of(" was knocked into the void by ", TextColors.YELLOW, killer);
+				return Text.of(" was knocked into the void by ", TextColors.GOLD, killer);
 			} else {
 				return Text.of(" fell into the void.");
 			}
@@ -72,7 +72,7 @@ public class Utils {
 
 		if (dmg.getType() == DamageTypes.EXPLOSIVE) {
 			if (!killer.isEmpty()) {
-				return Text.of(" was exploded by ", TextColors.YELLOW, killer);
+				return Text.of(" was exploded by ", TextColors.GOLD, killer);
 			} else {
 				return Text.of(" exploded.");
 			}
@@ -81,7 +81,7 @@ public class Utils {
 
 		if (dmg.getType() == DamageTypes.PROJECTILE) {
 			if (!killer.isEmpty()) {
-				return Text.of(" was sniped by ", TextColors.YELLOW, killer);
+				return Text.of(" was sniped by ", TextColors.GOLD, killer);
 			} else {
 				return Text.of(" was sniped.");
 			}
@@ -89,7 +89,7 @@ public class Utils {
 
 		if (dmg.getType() == DamageTypes.PROJECTILE) {
 			if (!killer.isEmpty()) {
-				return Text.of(" was burnt by ", TextColors.YELLOW, killer);
+				return Text.of(" was burnt by ", TextColors.GOLD, killer);
 			} else {
 				return Text.of(" burned away.");
 			}
@@ -97,6 +97,14 @@ public class Utils {
 
 		if (dmg.getType() == DamageTypes.FALL) {
 			return Text.of(" fell from a high place.");
+		}
+		
+		if (dmg.getType() == DamageTypes.ATTACK) {
+			if (!killer.isEmpty()) {
+				return Text.of(" was killed by ", TextColors.GOLD, killer);
+			} else {
+				return Text.of(" was killed.");
+			}
 		}
 
 		return Text.of(" died.");
@@ -116,6 +124,17 @@ public class Utils {
 
 		return stack;
 	}
+	/*
+	 * 
+	 * 
+	 * ================================================================
+	 * 								WARNING!
+	 * 			A LOT OF HARD CODE BELOW! YOU HAVE BEEN WARNED!
+	 * POST SUGGESTIONS FOR CODE IMPROVEMENT TO ISSUES / PULL REQUESTS!
+	 * ================================================================
+	 * 
+	 *
+	 */
 
 	public static void fillShopInventory(Inventory shopInv) {
 		ItemStack filler = createShopItem(Text.of(""), ItemTypes.STAINED_GLASS_PANE, Text.EMPTY, 1);
