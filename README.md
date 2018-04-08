@@ -4,7 +4,7 @@
 
 Bedwars gamemode implementation for Sponge.
 
-** Early alpha, still in development! The plugin can contain a lot of bugs**
+** Early alpha, still in development! The plugin can contain a lot of bugs **
 
 
 ## Installation
@@ -47,7 +47,7 @@ To setup the game you need to:
 
 ### Set Team Spawn Point
 
-**/bwx setspawn <team>** or **/bwx ss <team>** will set team spawn point.
+**/bwx setspawn [team]** or **/bwx ss [team]** will set team spawn point.
 
 Possible teams:
 
@@ -65,16 +65,16 @@ You can use TAB for team name auto-completion while typing the command.
 ### Set team resource location
 Resource location is the place where team resources such as iron and gold will spawn.
 
-**/bwx setresource <team>** or **/bwx sr <team>** will set team resource location to your current position. <team> argument accepts the same team names as stated above.
+**/bwx setresource [team]** or **/bwx sr [team]** will set team resource location to your current position. [team] argument accepts the same team names as stated above.
 
 ### Set Team Bed
 
-Run **/bwx setbed <team>** or **/bwx sb <team>**. Then place the bed. Placed bed will be chosen team's bed.
+Run **/bwx setbed [team]** or **/bwx sb [team]**. Then place the bed. Placed bed will be chosen team's bed.
 
 ### Creating generators
 Generators periodically spawn diamonds or emeralds.
 
-**/bwx setgenerator <name> <type>** or **/bwx sg <name> <type>** sets generator <name> on your current location. It will spawn items of <type>. <type> can be **diamond** or **emerald**. <name> can be any string, for example: **/bwx sg emerald_gen_south emerald**
+**/bwx setgenerator [name] [type]** or **/bwx sg [name] [type]** sets generator [name] on your current location. It will spawn items of [type]. [type] can be **diamond** or **emerald**. [name] can be any string, for example: **/bwx sg emerald_gen_south emerald**
 
 ### Adding bedwars shop
 
