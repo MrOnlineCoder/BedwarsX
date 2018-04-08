@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="WINDOWS-1251" standalone="no"?>
+<jardesc>
+    <jar path="E:/DEVELOPMENT/Games/Sponge 1.12.2/mods/BedwarsX.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/BedwarsX/make.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <folder path="/BedwarsX/src/main"/>
+        <javaElement handleIdentifier="=BedwarsX/src\/main\/resources"/>
+        <javaElement handleIdentifier="=BedwarsX/src\/main\/java"/>
+        <file path="/BedwarsX/mcmod.info"/>
+    </selectedElements>
+</jardesc>

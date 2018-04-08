@@ -1,0 +1,9 @@
+[{
+    "modid": "bedwarsx",
+    "name": "BedwarsX",
+    "version": "1.0.0",
+    "description": "Bedwars game implemenation for Sponge",
+    "authorList": [
+        "MrOnlineCoder"
+    ]
+}]
