@@ -1,5 +1,7 @@
 # BedwarsX
 
+## Plugin is not under development anymore. You can fork and do whatever you want with it. If you want to use the same plugin name, feel free to do it.
+
 ![Logo](https://www.dein-plugin.de/img/mimg132.png)
 
 Bedwars gamemode implementation for Sponge.
